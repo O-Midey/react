@@ -9,6 +9,7 @@ import Counter from "./components/Counter"
 import FunctionClick from "./components/FunctionClick"
 import ClassClick from "./components/ClassClick"
 import EventBind from "./components/EventBind"
+import ParentComponent from "./components/ParentComponent";
 
 
 
@@ -18,6 +19,7 @@ class App extends Component {
       <div className="App">
         {/* <FunctionClick/>
         <ClassClick/> */}
+        <ParentComponent />
       </div>
     );
   }
